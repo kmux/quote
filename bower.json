@@ -1,0 +1,24 @@
+{
+  "name": "quote",
+  "description": "",
+  "main": "",
+  "authors": [
+    "kmux <nicolaepascaneanu@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kmux/quote",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "simplemde": "simplemde-markdown-editor#^1.10.1"
+  }
+}

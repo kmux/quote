@@ -1,2 +1,45 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "./bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2em;
+}
+
+.quote-form {
+    margin-top: 2em;
+}
+
+.has-error {
+    label {
+        color: #d9534f;
+    }
+
+    input, textarea {
+        border-color: #d9534f;
+    }
+}
+
+.error-block {
+    display: block;
+    margin-top: 1em;
+    color: #d9534f;
+}
+
+.quote {
+    padding: 1em 0;
+    border-bottom: 1px solid #e6e6e6;
+    
+    .date, .user {
+        display: block;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    .date {
+        color: #999;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}

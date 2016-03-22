@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>@yield('title', 'Quote')</title>
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
         
@@ -14,6 +14,10 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
                     @include('partials.flash')
+
+                    <div class="col-md-12 text-center">
+                        <a href="{{ url('/') }}" class="logo">LaraQuote</a>
+                    </div>
 
                     @yield('content')
 
@@ -27,6 +31,6 @@
             </div>
         </div>
 
-        <script src="js/app.js"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

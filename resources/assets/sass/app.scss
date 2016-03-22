@@ -5,6 +5,18 @@ body {
     padding-top: 2em;
 }
 
+.logo {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 1em;
+    color: #34495e;
+
+    &:hover, &:focus {
+        text-decoration: none;
+        color: #34495e;
+    }
+}
+
 .quote-form {
     margin-top: 2em;
 }
@@ -26,7 +38,7 @@ body {
 }
 
 .quote {
-    padding: 1em 0;
+    padding: 1em 0 0;
     border-bottom: 1px solid #e6e6e6;
     
     .date, .user {
@@ -39,7 +51,12 @@ body {
         color: #999;
     }
 
+    .user {
+        margin-bottom: 1em;
+    }
+
     .title {
         font-size: 18px;
+        padding-bottom: 1em;
     }
 }
